@@ -1,0 +1,55 @@
+.login{
+    border: 2px solid rgb(58, 8, 58);
+    margin: 20px;
+    border-radius: 30px;
+    width: 30%;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 5%;
+    background-color: rgb(197, 189, 189);
+   
+}
+#pass{
+    margin-top:10px;
+    margin-right: 20px;
+}
+#submit,#btn{
+    margin-top: 10px;
+    height: 30px;
+    background-color:rgb(58, 8, 58);
+    color: white;
+}
+#submit{
+    width: 50%;
+    border-radius: 20px;
+    
+}
+#signup{
+    width: 50%;
+    border-radius: 20px;
+}
+#email,#pass{
+    
+    padding: 10px;
+    border-radius: 10px;
+}
+#email:hover{
+        background-color: rgb(245, 239, 245);
+    }
+    #pass:hover{
+        background-color:rgb(245, 239, 245);
+    
+    }
+    #btn{
+        width: 50%;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;  
+
+    }
+    
+    body{
+        background-image: url(../Image/bc.webp);
+       background-repeat: no-repeat;
+       background-size: cover; 
+    }

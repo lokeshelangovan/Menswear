@@ -1,0 +1,50 @@
+.signup{
+    border: 2px outset black;
+    width: 30%;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 10%;
+    background-color:rgb(197, 189, 189);
+}
+#fname,#lname,#email,#pass{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+#fname,#lname{
+    margin-right: 30px;
+}
+#pass{
+    margin-right: 25px;
+}
+#sign{
+    margin-bottom: 10px;
+    margin-top: 20px;
+    width: 70%;
+    height: 35px;
+    border-radius: 20px;
+    background-color: rgb(58, 8, 58);
+    color: white;
+}
+#fname:hover{
+    background-color:rgb(245, 239, 245);
+}
+#lname:hover{
+    background-color: rgb(245, 239, 245);
+}
+#email:hover{
+    background-color: rgb(245, 239, 245);
+}
+#pass:hover{
+    background-color:rgb(245, 239, 245);
+    
+}
+#log{
+    color: black;
+}
+body{
+    background-image: url(../Image/bc.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

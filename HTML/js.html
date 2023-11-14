@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <script>
+        //TYPE OF
+       /* let a = 7;
+        let b = "lokesh";
+        document.getElementById("demo").innerHTML=typeof a+"<br>"+
+             typeof b;
+*/
+
+//TRIM END()
+/*let t1 = "     lokesh     ";
+let t2 = t1.trimEnd();
+document.getElementById("demo").innerHTML = t1.length+"<br>"+
+t2.length*/
+
+//SPLIT()
+/*let a = "l|o|k|e|s|h";
+let b = a.split("|"); // (" "),(",")
+document.getElementById("demo").innerHTML=b[0];*/
+
+/*console.log('--------------------------------------');
+for(var year = 2014; year<=2050; year++)
+{
+    var d = new Date(year,0);
+    if (d.getDay() === 0)
+    console.log("1st january is being a Sunday "+year);
+}
+console.log('--------------------------------------');*/
+
+//MULTIPLIES OF 3 OR 7:
+/*function check(x)
+{
+if( (x%3 === 0) || (x%7 === 0) )
+{
+    console.log("True..");
+}
+else
+{
+    console.log("False..");
+}
+}
+check(12);
+check(20);
+check(11);
+check(23);*/
+
+function string(name){
+    
+    if(('a' === name.length) || ('e' === name.length) || ('i' === name.length) || ('o' === name.length) ||('u' === name.length))
+    {
+       var con = console.log("The string contain vowel");
+    }
+    return con;
+}
+string("lokesh");
+</script>
+</body>
+</html>

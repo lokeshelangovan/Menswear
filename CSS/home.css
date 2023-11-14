@@ -1,0 +1,75 @@
+.head{
+    background-color: rgb(122, 155, 122);
+    font-size: 30px;
+    word-spacing: 90px;
+    padding-left: 25%;
+}
+.mensw{
+    text-align: center;
+    font-size:100px;
+    color: rgb(212, 203, 203);
+background-image: url(../Image/mwbg1.jpg);
+margin-top: -20px;
+border: 2px solid black;
+     }
+    
+.btn{
+text-decoration: none;
+color: black;
+}
+.btn:hover{
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+.logo{
+margin-left: -33%;
+}
+.cloth{
+margin-left: 20%;
+height: 450px;
+}
+body{
+
+background-repeat: no-repeat;
+background-size: cover;
+}
+.fimg{
+height: 450px;
+background-color:lightgray;
+}
+.img1{
+height: 100%;
+
+object-fit:fill;
+}
+.navbar{
+position: sticky;
+top: 0;
+left: 0;
+z-index: 50;
+color: rgb(14, 13, 13);
+
+}
+
+.search{
+margin-right: 30%;
+width: 40%;
+}
+.secondnavi{
+background-color: black !important;
+position: sticky;
+top: 85px;
+
+}
+.snavi{
+color: wheat !important;
+}
+.sort{
+margin-left: 500px;
+}
+.firstc{
+background-color:  rgb(14, 13, 13);
+}
+.dress{
+height: 300px;
+}
