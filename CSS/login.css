@@ -1,12 +1,12 @@
 .login{
-    border: 2px solid rgb(58, 8, 58);
+    border: 2px solid gold;
     margin: 20px;
     border-radius: 30px;
     width: 30%;
     text-align: center;
     margin-left: 35%;
     margin-top: 5%;
-    background-color: rgb(197, 189, 189);
+    background-color:black;
    
 }
 #pass{
@@ -16,7 +16,7 @@
 #submit,#btn{
     margin-top: 10px;
     height: 30px;
-    background-color:rgb(58, 8, 58);
+    background-color:black;
     color: white;
 }
 #submit{
@@ -34,10 +34,10 @@
     border-radius: 10px;
 }
 #email:hover{
-        background-color: rgb(245, 239, 245);
+        background-color: rgb(236, 229, 188);
     }
     #pass:hover{
-        background-color:rgb(245, 239, 245);
+        background-color:rgb(236, 229, 188);
     
     }
     #btn{
@@ -51,5 +51,8 @@
     body{
         background-image: url(../Image/bc.webp);
        background-repeat: no-repeat;
-       background-size: cover; 
+       background-size: cover;
+    }
+    .topic{
+        color: goldenrod !important;
     }
