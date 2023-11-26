@@ -65,13 +65,13 @@ width: 100%;
   background-color: #002745;
 }
 .secondnavi{
-background-color: black !important;
+background-color: white !important;
 position: sticky;
 top: 85px;
 
 }
 .snavi{
-color: wheat !important;
+color:  #002745 !important;
 }
 .sort{
 margin-left: 500px;
@@ -116,6 +116,7 @@ z-index: 50;
   color: #002745 ;
   font-weight:bolder;
   font-size: x-large;
+  padding-bottom: 20%;
 }
 .head3{
   margin-left: 70px;
