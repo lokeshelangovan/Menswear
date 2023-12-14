@@ -12,48 +12,31 @@
     
     <div class="login topic"
       >
-        <img id="icon" src="../Image/logo1.0.png" alt="dress" title="Menswear" >
-        <h2>Login</h2>
-
-        <form id="loginform" 
         
-       
-        onsubmit= "
-        let user1E = document.getElementById('email').value;
-        let user1P = document.getElementById('pass').value;
-    
-        let user2E = document.getElementById('email').value;
-         let user2P = document.getElementById('pass').value;
-
-        if ((user1E === 'lokesh@gmail.com' &&  user1P === '1234') ||
-         ( user2E === 'john@gmail.com' &&  user2P === 'john'))
-        { window.location.href = '//127.0.0.1:5500/HTML/home.html'; return false;} 
-        else{
-            if((user1E != 'lokesh@gmail.com') &&
-            (user2E != 'john@gmail.com'))
-            {
-                document.getElementById('invalidEmail').textContent='Incorrect email Id';                
-            }
-            if((user1P!= '1234') &&
-            (user2P != 'john') )
-            {
-                document.getElementById('invalidPass').textContent='Incorrect Password';                
-            }
-            return false;
-        }">
+        <div class="container">
+            <div class="center">
+              <h2>Login</h2>
+                <form method="POST" action="">
+                    
+                    <div class="txt_field">
+                        <input type="text" name="Mobile number" required>
+                        <span></span>
+                        <label>Mobile Number</label>
+                    </div>
+                    <div class="txt_field">
+                        <input type="password" name="password" required>
+                        <span></span>
+                        <label>Password</label>
+                    </div>
+                    
+                    <input name="submit" type="Submit" value="Sign Up">
+                    <div class="signup_link">
+                        Create a new account ? <a href="../HTML/signup.html">Sign up</a>
+                    </div>
+                </form>
+            </div>
+        </div>
         
-
-        <label for="email" class="topic">Email:</label>
-        <input type="email" id="email" placeholder="Your email id" name="email" autofocus required title="enter mail id"><br>
-        <div id="invalidEmail" style="color: red; margin-top: 5px;"></div>
-        <label for="pass" class="topic">Password:</label>
-        <input type="password" placeholder="Your password " id="pass" name="pass" required><br>
-        <div id="invalidPass" style="color: red; margin-top: 5px"></div>
-      <button type="submit" id="submit" class="topic" >login</button>
-        <button id="btn" onclick="window.location.href='http://127.0.0.1:5500/Menswear/HTML/signup.html'" class="topic">Sign up</button>
-       <p id="fpass" class="topic"><b>Forget Password?</b></p>
-    </form>
-    
     </div>
     
 </body>

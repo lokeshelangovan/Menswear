@@ -43,7 +43,10 @@ height: 100%;
 object-fit:fill;
 }
 .navbar{
-
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 50;
 background-color: #002745 !important;
 width: 100%;
 
@@ -67,7 +70,7 @@ width: 100%;
 .secondnavi{
 background-color: white !important;
 position: sticky;
-top: 85px;
+top: 60px;
 
 }
 .snavi{
@@ -127,4 +130,6 @@ z-index: 50;
 .masterhead{
   padding-top: 38px;
   text-align: center;
+  /* position: sticky;
+  top: 60px; */
 }
